@@ -1,66 +1,83 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Tugas HTML & CSS</title>
+	<title>Tugas HTML & CSS (UI_2)</title>
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 	<script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </head>
 <body>
-	<h1>Tampilan 2 posisi duduk</h1>
+<div class="container">
+<div class="row">
+<div class="col text-center">
+	<h1>Seat List</h1>
 	<br/><br/>
-	<button id="film" type="button" class="btn btn-primary btn-lg btn-block">LAYAR</button>
+	<button type="button" class="btn btn-secondary btn-lg btn-block" readonly class="form-control-plaintext">LAYAR</button>
 	<br/><br/>
-	<a class="btn btn-primary" href="http://localhost/info.php" role="button">01</a>
-	<a class="btn btn-primary" href="http://localhost/info.php" role="button">02</a>
-	<a class="btn btn-primary" href="http://localhost/info.php" role="button">03</a>
-	<a class="btn btn-primary" href="http://localhost/info.php" role="button">04</a>
-	<a class="btn btn-primary" href="http://localhost/info.php" role="button">05</a>
-	<a class="btn btn-primary" href="http://localhost/info.php" role="button">06</a>
-	<a class="btn btn-primary" href="http://localhost/info.php" role="button">07</a>
-	<a class="btn btn-primary" href="http://localhost/info.php" role="button">08</a>
-	<a class="btn btn-primary" href="http://localhost/info.php" role="button">09</a>
+	<button name="tmb01" value="01" type="submit" class="btn btn-primary kursi">01</button>
+	<button name="tmb02" value="02" type="submit" class="btn btn-primary kursi">02</button>
+	<button name="tmb03" value="03" type="submit" class="btn btn-primary kursi">03</button>
+	<button name="tmb04" value="04" type="submit" class="btn btn-primary kursi">04</button>
+	<button name="tmb05" value="05" type="submit" class="btn btn-primary kursi">05</button>
+	<button name="tmb06" value="06" type="submit" class="btn btn-primary kursi">06</button>
+	<button name="tmb07" value="07" type="submit" class="btn btn-primary kursi">07</button>
+	<button name="tmb08" value="08" type="submit" class="btn btn-primary kursi">08</button>
+	<button name="tmb09" value="09" type="submit" class="btn btn-primary kursi">09</button>
 	<br/><br/>	
-	<a class="btn btn-primary" href="http://localhost/info.php" role="button">10</a>
-	<a class="btn btn-primary" href="http://localhost/info.php" role="button">11</a>
-	<a class="btn btn-primary" href="http://localhost/info.php" role="button">12</a>
-	<a class="btn btn-primary" href="http://localhost/info.php" role="button">13</a>
-	<a class="btn btn-primary" href="http://localhost/info.php" role="button">14</a>
-	<a class="btn btn-primary" href="http://localhost/info.php" role="button">15</a>
-	<a class="btn btn-primary" href="http://localhost/info.php" role="button">16</a>
-	<a class="btn btn-primary" href="http://localhost/info.php" role="button">17</a>
-	<a class="btn btn-primary" href="http://localhost/info.php" role="button">18</a>
+	<button name="tmb10" value="10" type="submit" class="btn btn-primary kursi">10</button>
+	<button name="tmb11" value="11" type="submit" class="btn btn-primary kursi">11</button>
+	<button name="tmb12" value="12" type="submit" class="btn btn-primary kursi">12</button>
+	<button name="tmb13" value="13" type="submit" class="btn btn-primary kursi">13</button>
+	<button name="tmb14" value="14" type="submit" class="btn btn-primary kursi">14</button>
+	<button name="tmb15" value="15" type="submit" class="btn btn-primary kursi">15</button>
+	<button name="tmb16" value="16" type="submit" class="btn btn-primary kursi">16</button>
+	<button name="tmb17" value="17" type="submit" class="btn btn-primary kursi">17</button>
+	<button name="tmb18" value="18" type="submit" class="btn btn-primary kursi">18</button>
 	<br/><br/>
-	<a class="btn btn-primary" href="http://localhost/info.php" role="button">19</a>
-	<a class="btn btn-primary" href="http://localhost/info.php" role="button">20</a>
-	<a class="btn btn-primary" href="http://localhost/info.php" role="button">21</a>
-	<a class="btn btn-primary" href="http://localhost/info.php" role="button">22</a>
-	<a class="btn btn-primary" href="http://localhost/info.php" role="button">23</a>
-	<a class="btn btn-primary" href="http://localhost/info.php" role="button">24</a>
-	<a class="btn btn-primary" href="http://localhost/info.php" role="button">25</a>
-	<a class="btn btn-primary" href="http://localhost/info.php" role="button">26</a>
-	<a class="btn btn-primary" href="http://localhost/info.php" role="button">27</a>
+	<button name="tmb19" value="19" type="submit" class="btn btn-primary kursi">19</button>
+	<button name="tmb20" value="20" type="submit" class="btn btn-primary kursi">20</button>
+	<button name="tmb21" value="21" type="submit" class="btn btn-primary kursi">21</button>
+	<button name="tmb22" value="22" type="submit" class="btn btn-primary kursi">22</button>
+	<button name="tmb23" value="23" type="submit" class="btn btn-primary kursi">23</button>
+	<button name="tmb24" value="24" type="submit" class="btn btn-primary kursi">24</button>
+	<button name="tmb25" value="25" type="submit" class="btn btn-primary kursi">25</button>
+	<button name="tmb26" value="26" type="submit" class="btn btn-primary kursi">26</button>
+	<button name="tmb27" value="27" type="submit" class="btn btn-primary kursi">27</button>
 	<br/><br/>
-	<a class="btn btn-primary" href="http://localhost/info.php" role="button">28</a>
-	<a class="btn btn-primary" href="http://localhost/info.php" role="button">29</a>
-	<a class="btn btn-primary" href="http://localhost/info.php" role="button">30</a>
-	<a class="btn btn-primary" href="http://localhost/info.php" role="button">31</a>
-	<a class="btn btn-primary" href="http://localhost/info.php" role="button">32</a>
-	<a class="btn btn-primary" href="http://localhost/info.php" role="button">33</a>
-	<a class="btn btn-primary" href="http://localhost/info.php" role="button">34</a>
-	<a class="btn btn-primary" href="http://localhost/info.php" role="button">35</a>
-	<a class="btn btn-primary" href="http://localhost/info.php" role="button">36</a>
+	<button name="tmb28" value="28" type="submit" class="btn btn-primary kursi">28</button>
+	<button name="tmb29" value="29" type="submit" class="btn btn-primary kursi">29</button>
+	<button name="tmb30" value="30" type="submit" class="btn btn-primary kursi">30</button>
+	<button name="tmb31" value="31" type="submit" class="btn btn-primary kursi">31</button>
+	<button name="tmb32" value="32" type="submit" class="btn btn-primary kursi">32</button>
+	<button name="tmb33" value="33" type="submit" class="btn btn-primary kursi">33</button>
+	<button name="tmb34" value="34" type="submit" class="btn btn-primary kursi">34</button>
+	<button name="tmb35" value="35" type="submit" class="btn btn-primary kursi">35</button>
+	<button name="tmb36" value="36" type="submit" class="btn btn-primary kursi">36</button>
 	<br/><br/>
-	<a class="btn btn-primary" href="http://localhost/info.php" role="button">37</a>
-	<a class="btn btn-primary" href="http://localhost/info.php" role="button">38</a>
-	<a class="btn btn-primary" href="http://localhost/info.php" role="button">39</a>
-	<a class="btn btn-primary" href="http://localhost/info.php" role="button">40</a>
-	<a class="btn btn-primary" href="http://localhost/info.php" role="button">41</a>
-	<a class="btn btn-primary" href="http://localhost/info.php" role="button">42</a>
-	<a class="btn btn-primary" href="http://localhost/info.php" role="button">43</a>
-	<a class="btn btn-primary" href="http://localhost/info.php" role="button">44</a>
-	<a class="btn btn-primary" href="http://localhost/info.php" role="button">45</a>
-	
-	<script src="pilihkursi.js"></script>
+	<button name="tmb37" value="37" type="submit" class="btn btn-primary kursi">37</button>
+	<button name="tmb38" value="38" type="submit" class="btn btn-primary kursi">38</button>
+	<button name="tmb39" value="39" type="submit" class="btn btn-primary kursi">39</button>
+	<button name="tmb40" value="40" type="submit" class="btn btn-primary kursi">40</button>
+	<button name="tmb41" value="41" type="submit" class="btn btn-primary kursi">41</button>
+	<button name="tmb42" value="42" type="submit" class="btn btn-primary kursi">42</button>
+	<button name="tmb43" value="43" type="submit" class="btn btn-primary kursi">43</button>
+	<button name="tmb44" value="44" type="submit" class="btn btn-primary kursi">44</button>
+	<button name="tmb45" value="45" type="submit" class="btn btn-primary kursi">45</button>
+	<br/>
+	<small id="labelaja" class="form-text text-muted">Film terpilih : </small>
+	<small id="filmTerpilih" name="filmTerpilih" class="form-text text-muted"></small><br/>
+	<script src="pilihfilm.js"></script>
+</div>
+</div>
+</div>
+	<script>
+$(document).ready(function() {
+    $(".kursi").click(function() {
+		let qString = window.location.search;
+		window.location.href = 'http://localhost/tugas_html_css/bayar.html' + qString + '&kursi=' + $(this).val();
+    });
+});
+
+</script>
 </body>
 </html>
